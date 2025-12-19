@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Untuk Adik Tersayang 🩷</title>
+  <style>
+    :root {
+      --bg: #fff0f6;
+      --card: #ffffff;
+      --accent: #db2777; /* pink ceria */
+      --muted: #475569;
+      --shadow: 0 6px 20px rgba(0,0,0,0.08);
+      --radius: 16px;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: #0f172a;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 40px 16px 24px;
+      background: linear-gradient(120deg, #ec4899, #f472b6);
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    header p {
+      margin: 8px 0 0;
+      font-size: 18px;
+    }
+    main {
+      max-width: 820px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    section {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+      margin-bottom: 24px;
+      animation: fadeInUp .8s ease forwards;
+      opacity: 0;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 22px;
+      color: var(--accent);
+    }
+    img {
+      max-width: 100%;
+      border-radius: var(--radius);
+      margin-top: 12px;
+      box-shadow: var(--shadow);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .quote {
+      font-style: italic;
+      color: var(--muted);
+      text-align: center;
+      margin: 16px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 16px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Untuk Sisterku Tersayang 🩷</h1>
+    <p>Adekku yang imut & lucu</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Ucapan untuk Sister</h2>
+      <p>
+        Terima kasih sudah jadi bagian terindah dalam hidupku.  
+        Kamu bukan hanya adik, tapi juga sahabat yang selalu ada untuk berbagi cerita, tawa, dan rahasia.  
+        Semoga kita selalu dekat meskipun jarak memisahkan. 🌸
+      </p>
+      <div class="quote">“Sister is another word for best friend.”</div>
+    </section>
+
+    <section>
+      <h2>Kenangan Bersama</h2>
+      <p>Beberapa foto kenangan manis bersama:</p>
+      <img src="Foto Adek 5.jpg" alt="Foto dengan sister">
+      <img src="Foto Adek 1.jpg" alt="Foto kenangan sister">
+    </section>
+
+    <section>
+      <h2>Harapan untuk Sister</h2>
+      <ul>
+        <li>Selalu bahagia dan sehat 🩷</li>
+        <li>Sukses dalam pendidikan & karier 📚</li>
+        <li>Semoga semua cita-citanya tercapai ✨</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Dibuat dengan 🩷 oleh Abangmu yang paling GANTENG 😁 — 2025
+  </footer>
+
+  <script>
+    // Animasi muncul berurutan
+    document.querySelectorAll("section").forEach((sec,i)=>{
+      setTimeout(()=>{sec.style.opacity=1}, 400*(i+1));
+    });
+  </script>
+</body>
+</html>

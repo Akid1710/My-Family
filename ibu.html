@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Untuk Ibu Tercinta ❤️</title>
+  <style>
+    :root {
+      --bg: #fff7f7;
+      --card: #ffffff;
+      --accent: #e11d48; /* merah muda cinta */
+      --muted: #6b7280;
+      --shadow: 0 6px 20px rgba(0,0,0,0.08);
+      --radius: 16px;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: #111827;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 40px 16px 24px;
+      background: linear-gradient(120deg, #f43f5e, #ec4899);
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    header p {
+      margin: 8px 0 0;
+      font-size: 18px;
+    }
+    main {
+      max-width: 820px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    section {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+      margin-bottom: 24px;
+      animation: fadeIn .8s ease forwards;
+      opacity: 0;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 22px;
+      color: var(--accent);
+    }
+    img {
+      max-width: 100%;
+      border-radius: var(--radius);
+      margin-top: 12px;
+      box-shadow: var(--shadow);
+    }
+    .quote {
+      font-style: italic;
+      color: var(--muted);
+      text-align: center;
+      margin: 16px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 16px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Untuk Ibu Tercinta ❤️</h1>
+    <p>Dedikasi sederhana dari anakmu</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Ucapan dari Hati</h2>
+      <p>
+        Terima kasih Ibu atas kasih sayang, doa, dan pengorbanan yang tiada henti.  
+        Setiap langkahku adalah berkat doa tulusmu.  
+        Semoga Allah selalu memberikan kesehatan, kebahagiaan, dan keberkahan untuk Ibu tercinta. ❤️
+      </p>
+      <div class="quote">“Surga berada di telapak kaki ibu.”</div>
+    </section>
+
+    <section>
+      <h2>Kenangan Indah</h2>
+      <p>Beberapa foto kenangan bersama Ibu yang selalu membuatku tersenyum:</p>
+      <img src="Foto Ibu 2.jpg" alt="Foto bersama Ibu">
+      <img src="Foto Ibu 1.jpg" alt="Foto kebersamaan">
+    </section>
+
+    <section>
+      <h2>Doa untuk Ibu</h2>
+      <p>
+        Ya Allah, ampunilah dosa-dosa Ibu, sayangilah beliau sebagaimana beliau menyayangiku sejak kecil,  
+        lapangkanlah rezekinya, mudahkanlah urusannya, dan kumpulkanlah kami sekeluarga dalam ridha-Mu.  
+        Aamiin 🤲
+      </p>
+      
+    </section>
+  </main>
+
+  <footer>
+    Dibuat dengan ❤️ oleh anakmu — 2025
+  </footer>
+
+  <script>
+    // Animasi fade-in
+    document.querySelectorAll("section").forEach((sec,i)=>{
+      sec.style.transform="translateY(10px)";
+      setTimeout(()=>{
+        sec.style.opacity=1;
+        sec.style.transform="none";
+      }, 400*(i+1));
+    });
+  </script>
+</body>
+</html>
